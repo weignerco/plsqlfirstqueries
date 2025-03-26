@@ -1,1 +1,1 @@
-PL/SQL first queries for verification after successful connection to an Oracle database
+A bunch of scripts and notes as a cloud architect.
