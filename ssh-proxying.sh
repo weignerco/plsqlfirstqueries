@@ -1,6 +1,6 @@
-# The command is a classic SSH proxying example, perfect for hopping into a private VM-02 via a public one VM-01 (a bastion host)
-
 ssh -i vm-02-prv.key -o ProxyCommand="ssh -W %h:%p -i vm-01.prv.key opc@<vm-01 public ip>" opc@<vm-02 private ip>
+
+# The command is a classic SSH proxying example, perfect for hopping into a private VM-02 via a public one VM-01 (a bastion host)
 
 # vm-02-prv.key: Private key for VM-02 (the private instance).
 # vm-01.prv.key: Private key for VM-01 (the bastion host).
